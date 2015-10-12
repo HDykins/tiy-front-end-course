@@ -8,3 +8,8 @@
 8. The second most popular operating system in North America for desktop today (12/10/15) is OS X
 9. The most popular screen resolution in Europe for mobiles today (12/10/15) is 360x640
 10. The most popular layout engine worldwide today is WebKit
+11. My public IP is 83.216.95.214
+12. My private IP is 192.168.15.56
+13. Street: 103 Everittsville Road, City: Dudley, State/Province: NC, Postal Code: 28333, Country: US
+14. http://www.explainxkcd.com/wiki/index.php/1163:_Debugger
+Artemij.com expires on May 04, 2017
