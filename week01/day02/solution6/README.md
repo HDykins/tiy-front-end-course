@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+<table>
+  <tr>
+    <th>1</th>
+    <th>2</th>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>
+      <table>
+  <tr>
+    <th>
+      <table>
+  <tr>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>8</td>
+  </tr>
+</table>
+    </th>
+    <th>6</th>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>10</td>
+  </tr>
+</table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
