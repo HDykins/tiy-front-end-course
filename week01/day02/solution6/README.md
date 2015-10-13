@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td>10</td>
+    <td>1</td>
     <td>2</td>
   </tr>
   <tr>
