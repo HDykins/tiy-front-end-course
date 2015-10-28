@@ -2,104 +2,169 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>JS Bin</title>
+  <title>SHARD</title>
+  <style type="text/css" class="stylesheet">
+    @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+    * {
+      font-family: 'Slabo 27px', serif;
+      font-size: 20px; 
+    }
+
+    p {
+      font-family: 'Slabo 27px', serif;
+      font-size: 20px;
+      margin: 40;
+    }
+    blockquote {
+      font-family: fantasy;
+      font-size: 24px;
+    }
+    body {
+      text-align: center;
+      background-color: rgb(100,100,100);
+      color: rgb(255,255,255);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    }
+
+    ul {
+      list-style-type: none;
+      list-style-position: inside;
+    }
+    .photo {
+      width: 700px;
+      margin: 30px;
+      clear: left;
+      position: relative;
+      display: block;
+      padding: 20px 20px;
+      margin: 10px auto;
+    }
+    .title {
+      font-family: cursive;
+    }
+    .table {
+      width: 600px;
+      height: 250px;
+      border : 1px solid rgb(255,255,255);
+      border-width: 4px 4px;
+      border-style: double;
+      position: relative;
+      width:30%;
+      margin: 0 auto;
+    }
+    #shard-from-bridge {
+      float: left;
+      width:350px;
+      margin:20px;
+    }
+  </style>
 </head>
 <body>
-<h1>
-  London's Finest landmark: The Shard.
+  <h1>
+    <strong id="headline" class="title">London's Finest landmark: The Shard.</strong>
   </h1>
-  <p>
+  <p id="intro" class="text">
     Isn't it magnificent? Simply Stunning! Offices as well I suppose.
-    <img src="http://www.kenziegroup.co.uk/wp/wp-content/uploads/2015/06/the-shard.jpg" alt="Picture cannot be displayed" title="The Shard" />
-    </p>
-  
-  <p>
-    In July 2002, the then-Deputy Prime Minister, John Prescott, ordered a planning inquiry after the development plans for the Shard were opposed by the Commission for Architecture and the Built Environment and several heritage bodies, including the Royal Parks Foundation and English Heritage.[23][24] The inquiry took place in April and May 2003,[11][25] and on 19 November 2003, the Office of the Deputy Prime Minister announced that planning consent had been approved.[26] The government stated that:
+  </p>
 
-Mr Prescott would only approve skyscrapers of exceptional design. For a building of this size to be acceptable, the quality of its design is critical. He is satisfied that the proposed tower is of the highest architectural quality.
-    <img src="http://www.travelsignposts.com/London/files/2012/07/Shard_588.jpg" alt="Picture cannot be displayed" title="The Shard" />
-  </p>
+  <img id="sunny-photo" class="photo" src="http://www.kenziegroup.co.uk/wp/wp-content/uploads/2015/06/the-shard.jpg" alt="Picture cannot be displayed" title="The Shard" />
+
+  <img id="shard-from-bridge" class="photo" src="http://www.travelsignposts.com/London/files/2012/07/Shard_588.jpg" alt="Picture cannot be displayed" title="The Shard" />
   
-  <p>
+  <p id="planning" class="text">
+    In July 2002, the then-Deputy Prime Minister, John Prescott, ordered a planning inquiry after the development plans for the Shard were opposed by the Commission for Architecture and the Built Environment and several heritage bodies, including the Royal Parks Foundation and English Heritage.[23][24] The inquiry took place in April and May 2003,[11][25] and on 19 November 2003, the Office of the Deputy Prime Minister announced that planning consent had been approved.[26] The government stated that:
+  </p>
+
+  <blockquote>Mr Prescott would only approve skyscrapers of exceptional design. For a building of this size to be acceptable, the quality of its design is critical. He is satisfied that the proposed tower is of the highest architectural quality.</blockquote>
+  
+  <p id="history" class="text">
     In late 2007, the gathering uncertainty in the global financial markets sparked concerns about the viability of the Shard. However, in January 2008, Sellar announced that it had secured funding from a consortium of Qatari investors, who had paid £150 million to secure an 80% stake in the project. The consortium included Qatar National Bank, QInvest, Qatari Islamic Bank and the Qatari property developer Barwa Real Estate, as well as Sellar Property. The deal involved a buyout of the Halabi and CLS Holdings stakes, and part of the Sellar Property stake.[32] The new owners promised to provide the first tranche of finance, allowing construction of the tower to begin. In 2009, the State of Qatar consolidated its ownership of London Bridge Quarter, including the Shard, through the purchase of the private Qatari investors' stakes. London Bridge Quarter is today jointly owned by the State of Qatar and Sellar Property.[6]
-    <img src="http://i.telegraph.co.uk/multimedia/archive/02448/Pinnacle_The_View__2448728k.jpg" alt="Picture cannot be displayed" title="The Shard" />
+
+    <img id="shard-at-dusk" class="photo" src="http://i.telegraph.co.uk/multimedia/archive/02448/Pinnacle_The_View__2448728k.jpg" alt="Picture cannot be displayed" title="The Shard" />
   </p>
   
-  Here are some interesting facts about the shard that you can't afford to ignore:
-  <ul>
-  <li>Floor count = 87</li>
-  <li>Elevator count = 44</li>
-  <li>Typical office area = 54,488 m<sup>2</sup></li>
-  <li>Construction started in early 2009</li>
-  <li>Construction ended in mid 2014</li>
-  <li>The Shard is very stable, with a sway tolerance of 400m</li>
-</ul>
+  <p id="facts-intro" class="bullets">
+    Here are some interesting facts about the shard that you can't afford to ignore:
+  </p>
+  <ul id="facts" class="bullets">
+    <li>Floor count = 87</li>
+    <li>Elevator count = 44</li>
+    <li>Typical office area = 54,488 m<sup>2</sup></li>
+    <li>Construction started in early 2009</li>
+    <li>Construction ended in mid 2014</li>
+    <li>The Shard is very stable, with a sway tolerance of 400m</li>
+  </ul>
   
- <table>
-  <tr>
-    <th>Tenants</th>
-    <th>Date of start of occupancy</th>
-    <th>Website</th>
-  </tr>
-  <tr>
-    <td>Shangri-La Hotel</td>
-    <td>08/15</td>
-    <td><a href="http://www.shangri-la.com">Main site</a></td>
-  </tr>
-  <tr>
-    <td>Duff & Phelps</td>
-    <td>08/15</td>
-    <td><a href="http://www.duffandphelps.com">Main site</a></td>
-  </tr>
-  <tr>
-    <td>South Hook LNG terminal</td>
-    <td>09/15</td>
-    <td><a href="https://www.southhooklng.com/">Main site</a></td>
-  </tr>
-</table>   
-<br/>
+  <table id="tenant-table" class="table">
+    <tr>
+      <th>Tenants</th>
+      <th>Date of start of occupancy</th>
+      <th>Website</th>
+    </tr>
+    <tr>
+      <td>Shangri-La Hotel</td>
+      <td>08/15</td>
+      <td><a href="http://www.shangri-la.com">Main site</a></td>
+    </tr>
+    <tr>
+      <td>Duff & Phelps</td>
+      <td>08/15</td>
+      <td><a href="http://www.duffandphelps.com">Main site</a></td>
+    </tr>
+    <tr>
+      <td>South Hook LNG terminal</td>
+      <td>09/15</td>
+      <td><a href="https://www.southhooklng.com/">Main site</a></td>
+    </tr>
+  </table>   
+
   Tenant search:
   <form action="http://www.google.com" method="get">
-  <input type="search" name="tenancysearch">
-  <button>Ok</button>
+    <input type="search" name="tenancysearch">
+    <button>Ok</button>
   </form>
   <br/>
   
   <strong>Form for booking a visit:</strong><br/><br/>
-<form action="http://shard.com/submit" method="post">
-  Date of stay:<br/><br/>
-  <input type = "date" required><br/><br/>
-  Number of people:<br/><br/>
-    <input type="number" name="people" required /><br/><br/>
+  <form action="http://shard.com/submit" method="post">
+    Date of stay:<br/><br/>
+    <input type = "date" required><br/><br/>
+    <!---<<input type="name" minlength="2" maxlength="2" placeholder="DD"/>-->
+    <!---<<input type="name" minlength="2" maxlength="2" placeholder="MM"/>-->
+    <!---<<input type="name" minlength="2" maxlength="2" placeholder="YY"/>-->
+    Number of people:<br/><br/>
+    <input type="number" name="people" min="0" required /><br/><br/>
     Floor number:<br/><br/>
-    <input type="number" name="floor" maxlength="87" required /><br/><br/>
-      Restaurant (extra charge):<br/><br/>
-  <input type="radio" name="restaurant" value="No" checked /> No<br/><br/>
-  <input type="radio" name="restaurant" value="Yes" /> Yes<br/><br/>
+    <input type="number" name="floor" min="0" max="87" required placeholder="1-87"/><br/><br/>
+    Restaurant (extra charge):<br/><br/>
+    <input type="radio" name="restaurant" value="No" checked /> No<br/><br/>
+    <input type="radio" name="restaurant" value="Yes" /> Yes<br/><br/>
     <select name="Restaurants">
-    <option value="blank">&nbsp;</option>
-    <option value="Tasty Chicken">Tasty Chicken</option>
-    <option value="Tasty Lamb">Tasty Lamb</option>
-      </select>
-      <br/><br/>
-      Number of children:<br/><br/>
-      <input type="number" name="numofchildren" required min="1" max="5" />
- <input type="range" name="numofchildren" min="1" max="5" value="1" step="1" >
-  Phone number:<br/><br/>
-  <input type="tel" name="phonenum" maxlength="11" optional placeholder="Enter a valid home or mobile number" /> <small>(optional)</small><br/><br/>
-  Email address:<br/><br/>
-  <input type="email" name="email" required placeholder="Enter a valid email address" /> <small>(required)</small><br/><br/>
+      <option value="blank">&nbsp;</option>
+      <option value="Tasty Chicken">Tasty Chicken</option>
+      <option value="Tasty Lamb">Tasty Lamb</option>
+    </select>
+    <br/><br/>
+    Number of children:<br/><br/>
+    <input type="number" name="numofchildren" required min="1" max="5" />
+    <input type="range" name="numofchildren" min="1" max="5" value="1" step="1" >
+    Phone number:<br/><br/>
+    <input type="tel" name="phonenum" maxlength="11" placeholder="Enter a valid home or mobile number" /> <small>(optional)</small><br/><br/>
+    Email address:<br/><br/>
+    <input type="email" name="email" required placeholder="Enter a valid email address" /> <small>(required)</small><br/><br/>
     <button>Submit</button><br/><br/>
-    </form>
+  </form>
   More info about the shard experience:<br/><br/>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/yraqrBF3i_8" frameborder="0" allowfullscreen></iframe><br/><br/>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yraqrBF3i_8" allowfullscreen></iframe><br/><br/>
 
   Location:<br/><br/>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.475057610787!2d-0.0886886842301537!3d51.504499979634616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876035a0a9271d3%3A0xbdf26ba73efb7b!2sThe+Shard!5e0!3m2!1sen!2suk!4v1444768244498" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br/><br/>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.475057610787!2d-0.0886886842301537!3d51.504499979634616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876035a0a9271d3%3A0xbdf26ba73efb7b!2sThe+Shard!5e0!3m2!1sen!2suk!4v1444768244498" width="600" height="450" style="border:0" allowfullscreen></iframe><br/><br/>
   
-<br/><br/>
+  <br/><br/>
   
-  <a href="https://www.google.co.uk/search?hl=en&gl=uk&tbm=nws&authuser=0&q=the+shard&oq=the+shard&gs_l=news-cc.3..43j0l4j43i53.3032.4807.0.5104.9.7.0.2.2.0.71.428.7.7.0...0.0...1ac.1.f6jhZzM0ZiE#hl=en&gl=uk&authuser=0&tbm=nws&q=the+shard+london">Links to articles about the shard</a>
+  <a href="https://www.google.co.uk/search?hl=en&amp;gl=uk&amp;tbm=nws&amp;authuser=0&amp;q=the+shard&amp;oq=the+shard&amp;gs_l=news-cc.3..43j0l4j43i53.3032.4807.0.5104.9.7.0.2.2.0.71.428.7.7.0...0.0...1ac.1.f6jhZzM0ZiE#hl=en&amp;gl=uk&amp;authuser=0&amp;tbm=nws&amp;q=the+shard+london">Links to articles about the shard</a>
   
 </body>
 </html>
